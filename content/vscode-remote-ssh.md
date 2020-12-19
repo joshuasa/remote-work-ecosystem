@@ -50,7 +50,7 @@ Add host names to `C:\Windows\System32\drivers\etc\hosts` for example:
 Verify you can connect to the SSH host from Windows Terminal.
 
 ```powershell
-PS C:\> ssh -p 22 joshua@dbox-nuc -i ssh/joshua
+PS C:\> ssh -p xxxx joshua@dbox-nuc -i ssh/joshua
 Enter passphrase for key 'ssh/joshua':
 
 joshua@dbox-nuc:~$
