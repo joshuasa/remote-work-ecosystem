@@ -56,7 +56,7 @@ Enter passphrase for key 'ssh/joshua':
 joshua@dbox-nuc:~$
 ```
 
-### Update local ssh_config file
+### Add local ssh_config file and update extension settings
 
 Add hosts to local file `C:\Users\joshua\ssh\ssh_config` that follows the [SSH config file format](https://man7.org/linux/man-pages/man5/ssh_config.5.html).
 
@@ -85,3 +85,7 @@ Host dbox-gcp-bg1
       Port xxxx
    IdentityFile C:\Users\joshua\ssh\joshua
 ```
+
+Update Remote SSH Extension config file setting.
+
+![Update extension setting](https://raw.githubusercontent.com/joshuasa/remote-work-ecosystem/main/images/vscode-remote-ssh_02.png)
