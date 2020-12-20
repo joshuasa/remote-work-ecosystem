@@ -17,8 +17,7 @@ OpenSSH_for_Windows_7.7p1, LibreSSL 2.6.5
 
 ### Remote SSH host
 
-Installing secure Debian DevBox gist *coming soon.*<br>
-OpenSSH server on Debian:
+OpenSSH server on [Debian DevBox](https://github.com/joshuasa/remote-work-ecosystem/blob/main/content/debian-devbox.md):
 
 ```bash
 $ ssh -V
