@@ -89,3 +89,9 @@ Host dbox-gcp-bg1
 Update Remote SSH Extension config file setting.
 
 ![Update extension setting](https://raw.githubusercontent.com/joshuasa/remote-work-ecosystem/main/images/vscode-remote-ssh_02.png)
+
+### Connect to Remote Host
+
+Open command palette (`Ctrl`+`Shift`+`P`) and select **Remote-SSH: Connect to Host...**<br>Select from list of remote hosts.
+
+![List of remote hosts](https://raw.githubusercontent.com/joshuasa/remote-work-ecosystem/main/images/vscode-remote-ssh_03.png)
