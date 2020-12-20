@@ -61,4 +61,9 @@ Restart SSH server.
 $ sudo /etc/init.d/ssh restart
 ```
 
+Now access host using ssh key and newly assigned port.<br>
 **Note:** Remember to allow newly assigned SSH port traffic on firewall.
+
+```bash
+$ ssh -p xxxx joshua@dbox-azu-za1 -i ssh/joshua
+```
