@@ -34,7 +34,7 @@ ssh.service - OpenBSD Secure Shell server
 
 Search for Remote SSH extension by Microsoft in VS Code side bar and install.
 
-## Connect to Remote Host and open Remote Project
+## Connect to Remote Host and Open Remote Project
 
 ### Update local hosts file
 
@@ -108,7 +108,13 @@ You can also confirm that you're now working on Debian host by opening VS Code T
 
 ![VS Code Terminal](https://raw.githubusercontent.com/joshuasa/remote-work-ecosystem/main/images/vscode-remote-ssh_06.png)
 
-Next Open Folder or Clone Repository on Debian host.<br>
-Open Folder will display remote host file system.
+### Open Remote Project
+
+Next **Open Folder** or **Clone Repository** on Debian host.<br>
+**Open Folder** will display remote host file system.
 
 ![Open Folder](https://raw.githubusercontent.com/joshuasa/remote-work-ecosystem/main/images/vscode-remote-ssh_07.png)
+
+After opening remote project for the first time it will show up in Recent Workspaces list (`Ctrl`+`R`) with `[SSH: dbox-nuc]` label after project name.
+
+![Recent Workspaces](https://raw.githubusercontent.com/joshuasa/remote-work-ecosystem/main/images/vscode-remote-ssh_08.png)
