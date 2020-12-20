@@ -95,3 +95,11 @@ Update Remote SSH Extension config file setting.
 Open command palette (`Ctrl`+`Shift`+`P`) and select **Remote-SSH: Connect to Host...**<br>Select from list of remote hosts.
 
 ![List of remote hosts](https://raw.githubusercontent.com/joshuasa/remote-work-ecosystem/main/images/vscode-remote-ssh_03.png)
+
+Enter passphrase for ssh key.
+
+![Enter passpharse](https://raw.githubusercontent.com/joshuasa/remote-work-ecosystem/main/images/vscode-remote-ssh_04.png)
+
+VS Code connects to remote host and displays connection information in status bar.
+
+![Status bar](https://raw.githubusercontent.com/joshuasa/remote-work-ecosystem/main/images/vscode-remote-ssh_05.png)
