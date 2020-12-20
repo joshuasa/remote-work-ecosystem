@@ -1,8 +1,8 @@
 ## VS Code Remote Development using SSH
 
-Local-quality development experience with development environment & code hosted on remote bare-metal or VM based server. Examples are related to my remote work development ecosystem - VS Code running locally on Windows 10 PCs connecting to Debian DevBoxes (bare-metal servers and VMs in my Cape Town home office as well as data centers in Europe, United States and South Africa).
+Local-quality development experience with development OS & code hosted on remote bare-metal or VM based server. Setup below (my remote work development ecosystem) consists of VS Code running locally on Windows 10 PCs connecting to Debian DevBoxes (bare-metal servers and VMs in my Cape Town home office as well as data centers in Europe, United States and South Africa).
 
-![Remote-SSH](https://code.visualstudio.com/assets/docs/remote/ssh/architecture-ssh.png)
+![Remote-SSH](https://raw.githubusercontent.com/joshuasa/remote-work-ecosystem/main/images/vscode-remote-ssh_01.png)
 
 ## System Requirements
 
@@ -33,6 +33,8 @@ ssh.service - OpenBSD Secure Shell server
 ### Visual Studio Code & Remote SSH Extension
 
 Search for Remote SSH extension by Microsoft in VS Code side bar and install.
+
+![Remote-SSH Extension](https://raw.githubusercontent.com/joshuasa/remote-work-ecosystem/main/images/vscode-remote-ssh_09.png)
 
 ## Connect to Remote Host and Open Remote Project
 
