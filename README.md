@@ -1,8 +1,8 @@
 # Remote Work Ecosystem
 
-I work as a **Cloud Architect** and **Software Engineer** from my home office in Cape Town, South Africa for a company based in Europe and the United States.
+I work as a **Cloud Architect** and **Software Engineer** from my home office in Cape Town, South Africa.
 
-I use this repository for my setup & maintenance notes as well as general documentation of my remote work ecosystem.
+Repository contains my setup & maintenance notes as well as general documentation of my remote work ecosystem.
 
 * [Debian DevBoxes](https://github.com/joshuasa/remote-work-ecosystem/blob/main/content/debian-devbox.md)<br>
 Multiple Debian devboxes running on bare-metal servers & VMs in my Cape Town home office as well as data centers in Europe, United States and South Africa.
@@ -10,13 +10,9 @@ Multiple Debian devboxes running on bare-metal servers & VMs in my Cape Town hom
 * Windows 10 DevBoxes<br>
 Primary Windows 10 devbox runing on a custom built PC in my home office. Secondary Windows 10 devbox running on bare-metal server in a data center in Europe (remote controlled via RDP).
 
-* Windows Server 2019
-
-* VMware
-
-* Public Cloud Providers
-
 * [VS Code Remote Development using SSH](https://github.com/joshuasa/remote-work-ecosystem/blob/main/content/vscode-remote-ssh.md)
+
+* Cloud SandBoxes
 
 * [Python Custom Build for Virtual Environments on Debian](https://github.com/joshuasa/remote-work-ecosystem/blob/main/content/python-debian-custom-build.md)
 
