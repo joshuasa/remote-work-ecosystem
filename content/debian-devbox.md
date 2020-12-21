@@ -4,6 +4,10 @@ Assuming clean Debian 10 (Buster) installation.
 
 ## Secure DevBox
 
+Follow steps below when installing Debian locally on a bare-metal NUC for example. When installing Debian on Azure VM setup can be done via portal config and only SSH port needs to be updated in `sshd_config`.
+
+**Note:** On Azure consider using [Bastion](https://azure.microsoft.com/en-us/services/azure-bastion/).
+
 ### Add User
 
 If only `root` account provided after clean installation.
