@@ -1,6 +1,8 @@
 # Remote Work Ecosystem
 
-My remote work ecosystem. I work as a **Cloud Architect** and **Software Engineer** from my home office in Cape Town, South Africa for a company based in Europe and the United States.
+I work as a **Cloud Architect** and **Software Engineer** from my home office in Cape Town, South Africa for a company based in Europe and the United States.
+
+In addition to documenting my remote work ecosystem I use this repository for my setup and maintenance notes.
 
 * [Debian DevBox](https://github.com/joshuasa/remote-work-ecosystem/blob/main/content/debian-devbox.md)<br>
 Multiple Debian devboxes running on bare-metal servers & VMs in my Cape Town home office as well as data centers in Europe, United States and South Africa.
