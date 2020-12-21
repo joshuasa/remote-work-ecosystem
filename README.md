@@ -14,8 +14,6 @@ Primary Windows 10 devbox runing on a custom built PC in my home office. Seconda
 
 * Cloud SandBoxes
 
-* [Python Custom Build for Virtual Environments on Debian](https://github.com/joshuasa/remote-work-ecosystem/blob/main/content/python-debian-custom-build.md)
-
 * Bare-Metal Computers<br>
 Custom built PCs, NUCs, Laptop & Raspberry Pi's
 
