@@ -2,6 +2,7 @@
 
 * Secure DevBox
 * Python Custom Builds for Virtual Environments
+* Azure CLI
 
 ## Secure DevBox
 
@@ -125,3 +126,53 @@ $ source venv/bin/activate
 (venv) $ python --version
 Python 3.9.1
 ```
+
+## Azure CLI
+
+### Install Azure CLI
+
+Get packages needed for the install process.
+
+```bash
+$ sudo apt update
+$ sudo apt install ca-certificates curl apt-transport-https lsb-release gnupg
+```
+
+Download and install the Microsoft signing key.
+
+```bash
+$ curl -sL https://packages.microsoft.com/keys/microsoft.asc |
+    gpg --dearmor |
+    sudo tee /etc/apt/trusted.gpg.d/microsoft.gpg > /dev/null
+```
+
+Add the Azure CLI software repository.
+
+```bash
+$ AZ_REPO=$(lsb_release -cs)
+$ echo "deb [arch=amd64] https://packages.microsoft.com/repos/azure-cli/ $AZ_REPO main" |
+    sudo tee /etc/apt/sources.list.d/azure-cli.list
+```
+
+Update repository information and install the `azure-cli` package.
+
+```bash
+$ sudo apt update
+$ sudo apt install azure-cli
+
+$ az version
+```
+
+### Login
+
+Run the `login` command.
+
+```bash
+$ az login
+```
+
+Open browser page https://aka.ms/devicelogin and enter the authorization code displayed in terminal.
+
+### Update
+
+Update Azure CLI with `apt upgrade` or `az upgrade`.
