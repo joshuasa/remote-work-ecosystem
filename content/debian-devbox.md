@@ -1,6 +1,7 @@
 ## Debian DevBox
 
 * [Secure DevBox](https://github.com/joshuasa/remote-work-ecosystem/blob/main/content/debian-devbox.md#secure-devbox)
+* [Git](https://github.com/joshuasa/remote-work-ecosystem/blob/main/content/debian-devbox.md#git)
 * [Python Custom Builds for Virtual Environments](https://github.com/joshuasa/remote-work-ecosystem/blob/main/content/debian-devbox.md#python-custom-builds-for-virtual-environments)
 * [Azure CLI](https://github.com/joshuasa/remote-work-ecosystem/blob/main/content/debian-devbox.md#azure-cli)
 * [Azure Functions Core Tools](https://github.com/joshuasa/remote-work-ecosystem/blob/main/content/debian-devbox.md#azure-functions-core-tools)
@@ -73,6 +74,26 @@ Now access host using ssh key and newly assigned port.<br>
 
 ```bash
 $ ssh -p xxxx joshua@dbox-azu-za1 -i ssh/joshua
+```
+
+## Git
+
+### Install Git
+
+```bash
+$ sudo apt install git
+```
+
+### Config Git
+
+```bash
+$ git config --global user.name joshuasa
+$ git config --global user.email joshua.sa@yman.me
+
+$ git config --list
+$ cat ~/.gitconfig
+
+$ git config --global credential.helper 'store'
 ```
 
 ## Python Custom Builds for Virtual Environments
