@@ -3,6 +3,7 @@
 * Secure DevBox
 * Python Custom Builds for Virtual Environments
 * Azure CLI
+* Azure Functions Core Tools
 
 ## Secure DevBox
 
@@ -160,6 +161,7 @@ Update repository information and install the `azure-cli` package.
 $ sudo apt update
 $ sudo apt install azure-cli
 
+$ az --version
 $ az version
 ```
 
@@ -176,3 +178,24 @@ Open browser page https://aka.ms/devicelogin and enter the authorization code di
 ### Update
 
 Update Azure CLI with `apt upgrade` or `az upgrade`.
+
+## Azure Functions Core Tools
+
+**Note:** Microsoft signing key already downloaded and installed with Azure CLI installation.
+
+Set up the APT source list before doing an APT update.
+
+```bash
+$ sudo sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/debian/$(lsb_release -rs | cut -d'.' -f 1)/prod $(lsb_release -cs) main" > /etc/apt/sources.list.d/dotnetdev.list'
+```
+
+Install the Core Tools package.
+
+```bash
+$ sudo apt update
+$ sudo apt install azure-functions-core-tools-3
+
+$ func
+```
+
+![func](https://raw.githubusercontent.com/joshuasa/remote-work-ecosystem/main/images/debian-devbox_01.png)
