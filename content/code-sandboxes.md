@@ -2,7 +2,9 @@
 
 ### Python
 
-* Azure Functions
+* Azure Functions<br>
+Python Azure Functions using Visual Studio Code
+
 * Containerized Python
 * Python CLI app with Click
 * Asyncio
