@@ -165,6 +165,8 @@ $ az --version
 $ az version
 ```
 
+![az version](https://raw.githubusercontent.com/joshuasa/remote-work-ecosystem/main/images/debian-devbox_02.png)
+
 ### Login
 
 Run the `login` command.
