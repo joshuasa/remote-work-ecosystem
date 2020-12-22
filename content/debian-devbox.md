@@ -1,9 +1,9 @@
 ## Debian DevBox
 
-* Secure DevBox
-* Python Custom Builds for Virtual Environments
-* Azure CLI
-* Azure Functions Core Tools
+* [Secure DevBox](https://github.com/joshuasa/remote-work-ecosystem/blob/main/content/debian-devbox.md#secure-devbox)
+* [Python Custom Builds for Virtual Environments](https://github.com/joshuasa/remote-work-ecosystem/blob/main/content/debian-devbox.md#python-custom-builds-for-virtual-environments)
+* [Azure CLI](https://github.com/joshuasa/remote-work-ecosystem/blob/main/content/debian-devbox.md#azure-cli)
+* [Azure Functions Core Tools](https://github.com/joshuasa/remote-work-ecosystem/blob/main/content/debian-devbox.md#azure-functions-core-tools)
 
 ## Secure DevBox
 
