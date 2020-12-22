@@ -14,7 +14,7 @@ Primary Windows 10 devbox runing on a custom built PC in my home office. Seconda
 
 * Cloud SandBoxes
 
-* Code SandBoxes
+* [Code SandBoxes](https://github.com/joshuasa/remote-work-ecosystem/blob/main/content/code-sandboxes.md)
 
 * Bare-Metal Computers<br>
 Custom built PCs, NUCs, Laptop & Raspberry Pi's
