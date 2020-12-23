@@ -3,6 +3,7 @@
 * [Secure DevBox](https://github.com/joshuasa/remote-work-ecosystem/blob/main/content/debian-devbox.md#secure-devbox)
 * [Git](https://github.com/joshuasa/remote-work-ecosystem/blob/main/content/debian-devbox.md#git)
 * [Python Custom Builds for Virtual Environments](https://github.com/joshuasa/remote-work-ecosystem/blob/main/content/debian-devbox.md#python-custom-builds-for-virtual-environments)
+* [HTTPie](https://github.com/joshuasa/remote-work-ecosystem/blob/main/content/debian-devbox.md#httpie)
 * [Azure CLI](https://github.com/joshuasa/remote-work-ecosystem/blob/main/content/debian-devbox.md#azure-cli)
 * [Azure Functions Core Tools](https://github.com/joshuasa/remote-work-ecosystem/blob/main/content/debian-devbox.md#azure-functions-core-tools)
 
@@ -147,6 +148,25 @@ $ virtualenv --python=/home/joshua/.pythonbuilds/python-3.9.1/bin/python3.9 venv
 $ source venv/bin/activate
 (venv) $ python --version
 Python 3.9.1
+```
+
+## HTTPie
+
+### Create Python Virtual Environment
+
+```bash
+$ virtualenv --python=/home/joshua/.pythonbuilds/python-3.8.6/bin/python3.8 httpie-venv
+```
+
+### Install HTTPie
+
+```bash
+$ source httpie-venv/bin/activate
+$ python --version
+
+$ pip install --upgrade pip setuptools
+$ pip install --upgrade httpie
+$ http --version
 ```
 
 ## Azure CLI
