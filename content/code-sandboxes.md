@@ -2,7 +2,7 @@
 
 ### Python
 
-* Azure Functions<br>
+* [Azure Functions](https://github.com/joshuasa/sbox-azu-func1)<br>
 Python Azure Functions using Visual Studio Code
 
 * Containerized Python
