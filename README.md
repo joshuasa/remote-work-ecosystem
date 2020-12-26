@@ -2,7 +2,7 @@
 
 I work as a **Cloud Architect** and **Software Engineer** from my home office in Cape Town, South Africa.
 
-Repository contains my setup & maintenance notes as well as general documentation of my remote work ecosystem.
+This repo contains setup & maintenance notes as well as general remote work ecosystem documentation.
 
 * [Debian DevBoxes](https://github.com/joshuasa/remote-work-ecosystem/blob/main/content/debian-devbox.md)<br>
 Multiple Debian devboxes running on bare-metal servers & VMs in my Cape Town home office as well as data centers in Europe, United States and South Africa.
@@ -10,7 +10,8 @@ Multiple Debian devboxes running on bare-metal servers & VMs in my Cape Town hom
 * Windows 10 DevBoxes<br>
 Primary Windows 10 devbox runing on a custom built PC in my home office. Secondary Windows 10 devbox running on bare-metal server in a data center in Europe (remote controlled via RDP).
 
-* [VS Code Remote Development using SSH](https://github.com/joshuasa/remote-work-ecosystem/blob/main/content/vscode-remote-ssh.md)
+* [VS Code Remote Development using SSH](https://github.com/joshuasa/remote-work-ecosystem/blob/main/content/vscode-remote-ssh.md)<br>
+Local-quality development experience with IDE running on Windows 10 PC connecting to code server hosted on remote bare-metal or VM based [Debian DevBox](https://github.com/joshuasa/remote-work-ecosystem/blob/main/content/debian-devbox.md).
 
 * Cloud SandBoxes
 
@@ -24,5 +25,7 @@ Video conferencing hardware, monitors, keyboard & mouse, headset, etc
 
 * Network<br>
 Ubiquiti Unifi copper & WiFi based network (USG firewall, Cloud Key G2+, Switches, WiFi Access Points, IP Cameras) with redundant connection to internet (fibre & WiFi).
+
+* Lifelong Learning
 
 * Home Assistant based SmartHome
