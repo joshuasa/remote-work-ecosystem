@@ -6,6 +6,7 @@
 * [HTTPie](https://github.com/joshuasa/remote-work-ecosystem/blob/main/content/debian-devbox.md#httpie)
 * [Azure CLI](https://github.com/joshuasa/remote-work-ecosystem/blob/main/content/debian-devbox.md#azure-cli)
 * [Azure Functions Core Tools](https://github.com/joshuasa/remote-work-ecosystem/blob/main/content/debian-devbox.md#azure-functions-core-tools)
+* .NET 5.0 SDK
 
 ## Secure DevBox
 
@@ -242,3 +243,34 @@ $ func
 ```
 
 ![func](https://raw.githubusercontent.com/joshuasa/remote-work-ecosystem/main/images/debian-devbox_01.png)
+
+## .NET 5.0 SDK
+
+Add the Microsoft package signing key to your list of trusted keys and add the package repository.
+
+```bash
+$ wget https://packages.microsoft.com/config/debian/10/packages-microsoft-prod.deb -O packages-microsoft-prod.deb
+$ sudo dpkg -i packages-microsoft-prod.deb
+```
+
+Install the SDK.
+
+```bash
+$ sudo apt update
+$ sudo apt install apt-transport-https
+$ sudo apt update
+$ sudo apt install dotnet-sdk-5.0
+
+$ dotnet --info
+
+.NET SDK (reflecting any global.json):
+ Version:   5.0.101
+ Commit:    d05174dc5a
+
+Runtime Environment:
+ OS Name:     debian
+ OS Version:  10
+ OS Platform: Linux
+ RID:         debian.10-x64
+ Base Path:   /usr/share/dotnet/sdk/5.0.101/
+```
