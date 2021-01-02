@@ -13,12 +13,16 @@ Multiple Debian devboxes running on bare-metal servers & VMs in my Cape Town rem
 * Windows 10 DevBoxes<br>
 Primary Windows 10 devbox running on a custom built PC in my remote office. Secondary Windows 10 devbox running on bare-metal server in a data center in Europe (remote controlled via RDP). Functioning mainly as **GUI frontends** to Debian based Code Servers, Containers and Public Cloud Portals.
 
+* Visual Studio 2019 & Visual Studio Code
+
+* Python, C# & .NET 5.0 development on Debian
+
 * Bare-Metal Computers<br>
 Custom built PCs, NUCs, Raspberry Pi's & Laptop
 
 * Containers
 
-* Cloud SandBoxes
+* Cloud SandBoxes (Azure, AWS, GCP)
 
 * [Code SandBoxes](https://github.com/joshuasa/remote-work-ecosystem/blob/main/content/code-sandboxes.md)
 
