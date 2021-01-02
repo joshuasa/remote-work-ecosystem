@@ -2,16 +2,16 @@
 
 I work as a **Cloud Architect** and **Software Engineer** from my remote office in Cape Town, South Africa.
 
-This repo contains setup, maintenance as well as general remote work ecosystem notes.
+Repo contains setup, maintenance as well as general remote work ecosystem notes.
 
 * [VS Code Remote Development using SSH](https://github.com/joshuasa/remote-work-ecosystem/blob/main/content/vscode-remote-ssh.md)<br>
-Local-quality development experience with IDE running on Windows 10 PC connecting to code servers hosted on remote bare-metal or VM based [Debian DevBox](https://github.com/joshuasa/remote-work-ecosystem/blob/main/content/debian-devbox.md). Developing thefore on Debian OS running on high spec hardware (spinned down when not in use) in potentially any location in the world.
+Local-quality development experience with IDE running on Windows 10 PC connecting to code servers hosted on remote bare-metal or VM based [Debian DevBox](https://github.com/joshuasa/remote-work-ecosystem/blob/main/content/debian-devbox.md). Developing therefore on Debian OS running on high spec hardware (spinned down when not in use) in potentially any location in the world.
 
 * [Debian DevBoxes](https://github.com/joshuasa/remote-work-ecosystem/blob/main/content/debian-devbox.md)<br>
 Multiple Debian devboxes running on bare-metal servers & VMs in my Cape Town remote office as well as data centers in Europe, United States and South Africa.
 
 * Windows 10 DevBoxes<br>
-Primary Windows 10 devbox runing on a custom built PC in my remote office. Secondary Windows 10 devbox running on bare-metal server in a data center in Europe (remote controlled via RDP).
+Primary Windows 10 devbox running on a custom built PC in my remote office. Secondary Windows 10 devbox running on bare-metal server in a data center in Europe (remote controlled via RDP). Functioning mainly as **GUI frontends** to Debian based Code Servers, Containers and Public Cloud Portals.
 
 * Bare-Metal Computers<br>
 Custom built PCs, NUCs, Raspberry Pi's & Laptop
