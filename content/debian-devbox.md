@@ -6,7 +6,7 @@
 * [HTTPie](https://github.com/joshuasa/remote-work-ecosystem/blob/main/content/debian-devbox.md#httpie)
 * [Azure CLI](https://github.com/joshuasa/remote-work-ecosystem/blob/main/content/debian-devbox.md#azure-cli)
 * [Azure Functions Core Tools](https://github.com/joshuasa/remote-work-ecosystem/blob/main/content/debian-devbox.md#azure-functions-core-tools)
-* .NET 5.0 SDK
+* [.NET 5.0 SDK](https://github.com/joshuasa/remote-work-ecosystem/blob/main/content/debian-devbox.md#net-50-sdk)
 
 ## Secure DevBox
 
