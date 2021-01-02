@@ -1,24 +1,26 @@
 # Remote Work Ecosystem
 
-I work as a **Cloud Architect** and **Software Engineer** from my home office in Cape Town, South Africa.
+I work as a **Cloud Architect** and **Software Engineer** from my remote office in Cape Town, South Africa.
 
-This repo contains setup & maintenance notes as well as general remote work ecosystem documentation.
-
-* [Debian DevBoxes](https://github.com/joshuasa/remote-work-ecosystem/blob/main/content/debian-devbox.md)<br>
-Multiple Debian devboxes running on bare-metal servers & VMs in my Cape Town home office as well as data centers in Europe, United States and South Africa.
-
-* Windows 10 DevBoxes<br>
-Primary Windows 10 devbox runing on a custom built PC in my home office. Secondary Windows 10 devbox running on bare-metal server in a data center in Europe (remote controlled via RDP).
+This repo contains setup, maintenance as well as general remote work ecosystem notes.
 
 * [VS Code Remote Development using SSH](https://github.com/joshuasa/remote-work-ecosystem/blob/main/content/vscode-remote-ssh.md)<br>
-Local-quality development experience with IDE running on Windows 10 PC connecting to code server hosted on remote bare-metal or VM based [Debian DevBox](https://github.com/joshuasa/remote-work-ecosystem/blob/main/content/debian-devbox.md).
+Local-quality development experience with IDE running on Windows 10 PC connecting to code servers hosted on remote bare-metal or VM based [Debian DevBox](https://github.com/joshuasa/remote-work-ecosystem/blob/main/content/debian-devbox.md). Developing thefore on Debian OS running on high spec hardware (spinned down when not in use) in potentially any location in the world.
+
+* [Debian DevBoxes](https://github.com/joshuasa/remote-work-ecosystem/blob/main/content/debian-devbox.md)<br>
+Multiple Debian devboxes running on bare-metal servers & VMs in my Cape Town remote office as well as data centers in Europe, United States and South Africa.
+
+* Windows 10 DevBoxes<br>
+Primary Windows 10 devbox runing on a custom built PC in my remote office. Secondary Windows 10 devbox running on bare-metal server in a data center in Europe (remote controlled via RDP).
+
+* Bare-Metal Computers<br>
+Custom built PCs, NUCs, Raspberry Pi's & Laptop
+
+* Containers
 
 * Cloud SandBoxes
 
 * [Code SandBoxes](https://github.com/joshuasa/remote-work-ecosystem/blob/main/content/code-sandboxes.md)
-
-* Bare-Metal Computers<br>
-Custom built PCs, NUCs, Laptop & Raspberry Pi's
 
 * Peripheral Hardware<br>
 Video conferencing hardware, monitors, keyboard & mouse, headset, etc
