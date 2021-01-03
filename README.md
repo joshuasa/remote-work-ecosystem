@@ -18,7 +18,7 @@ Primary Windows 10 devbox running on a custom built PC in my remote office. Seco
 * Python, C# & .NET 5.0 development on Debian
 
 * Bare-Metal Computers<br>
-Custom built PCs, NUCs, Raspberry Pi's & Laptop
+Custom built Mini-ITX PCs, Minisforum (X400 & H31G), NUCs, Raspberry Pi's
 
 * Containers
 
