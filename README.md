@@ -17,8 +17,12 @@ Primary Windows 10 devbox running on a custom built PC in my remote office. Seco
 
 * Python, C# & .NET 5.0 development on Debian
 
+* Algorithmic Trading
+
+* Ethereum 2.0 & Polkadot Network
+
 * Bare-Metal Computers<br>
-Custom built Mini-ITX PCs, Minisforum (X400 & H31G), NUCs, Raspberry Pi's
+Custom built high spec Mini-ITX PCs, Minisforum (X400 & H31G), NUCs, Raspberry Pi's
 
 * Containers
 
